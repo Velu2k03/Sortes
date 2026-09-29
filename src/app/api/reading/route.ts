@@ -23,6 +23,10 @@ export async function POST(req: Request) {
     const openai = new OpenAI({
       baseURL: "https://openrouter.ai/api/v1",
       apiKey: env.OPENROUTER_API_KEY,
+      defaultHeaders: {
+        "HTTP-Referer": env.NEXT_PUBLIC_SITE_URL || "https://tarot.resonantatlas.com",
+        "X-Title": "Sortes Tarot",
+      }
     });
 
     const systemPrompt = `You are an expert Tarot reader. You provide insightful, psychological, and mystical interpretations of Tarot spreads. Be concise, empathetic, and profound. Format your response in clean Markdown.`;

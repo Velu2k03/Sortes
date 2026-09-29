@@ -62,6 +62,19 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ spreadType, cards: cardsPayload })
       });
+      
+      if (!res.ok) {
+        const text = await res.text();
+        try {
+          const json = JSON.parse(text);
+          setInterpretation(`The oracle encountered an issue: ${json.error || text}`);
+        } catch {
+          setInterpretation(`The oracle encountered a server issue: ${res.status} ${text.substring(0, 100)}`);
+        }
+        setIsInterpreting(false);
+        return;
+      }
+
       const data = await res.json();
       if (data.text) {
         setInterpretation(data.text);
