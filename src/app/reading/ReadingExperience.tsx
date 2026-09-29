@@ -17,6 +17,36 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
   const [spreadType, setSpreadType] = useState<SpreadType>("single");
   const [deck, setDeck] = useState<CardType[]>([]);
   const [drawnCards, setDrawnCards] = useState<CardType[]>([]);
+  
+  const [isInterpreting, setIsInterpreting] = useState(false);
+  const [interpretation, setInterpretation] = useState<string | null>(null);
+
+  const handleInterpret = async () => {
+    setIsInterpreting(true);
+    try {
+      // For this app, randomly decide if cards are upright or reversed
+      // We could store this in state earlier, but for now we assign randomly on interpret
+      const cardsPayload = drawnCards.map(c => ({
+        name: c.name,
+        reversed: Math.random() > 0.5
+      }));
+      
+      const res = await fetch("/api/reading", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ spreadType, cards: cardsPayload })
+      });
+      const data = await res.json();
+      if (data.text) {
+        setInterpretation(data.text);
+      } else {
+        setInterpretation("The cards are silent today. (Error connecting to oracle)");
+      }
+    } catch (e) {
+      setInterpretation("The cards are silent today. (Error connecting to oracle)");
+    }
+    setIsInterpreting(false);
+  };
 
   // Shuffle array using Fisher-Yates
   const shuffleDeck = () => {
@@ -57,6 +87,7 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
   const reset = () => {
     setDrawnCards([]);
     setStep("select_spread");
+    setInterpretation(null);
   };
 
   return (
@@ -220,18 +251,45 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
               <button 
                 onClick={reset}
                 className="px-6 py-3 border border-[#8a8a9d] text-[#8a8a9d] hover:bg-[#8a8a9d]/10 rounded-full transition-colors"
+                disabled={isInterpreting}
               >
                 Start Over
               </button>
               
-              {/* To be implemented in Phase 7 */}
               <button 
-                className="px-6 py-3 bg-[#d4af37] text-[#0a0a1a] font-semibold rounded-full hover:bg-[#e8c353] transition-colors shadow-lg shadow-[#d4af37]/20"
-                onClick={() => alert("AI Reading Generation will be implemented in Phase 7!")}
+                className="px-6 py-3 bg-[#d4af37] text-[#0a0a1a] font-semibold rounded-full hover:bg-[#e8c353] transition-colors shadow-lg shadow-[#d4af37]/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                onClick={handleInterpret}
+                disabled={isInterpreting || !!interpretation}
               >
-                Interpret Reading
+                {isInterpreting ? "Reading the cards..." : "Interpret Reading"}
               </button>
             </div>
+            
+            {interpretation && (
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="w-full max-w-2xl mt-12 p-8 rounded-2xl bg-[#15152a]/80 border border-[#d4af37]/30 shadow-2xl"
+              >
+                <div className="prose prose-invert prose-gold max-w-none">
+                  {interpretation.split('\n').map((paragraph, i) => (
+                    <p key={i} className="text-[#e8e4d9] leading-relaxed mb-4 font-light">
+                      {/* Bold card names or markdown-like strong tags visually */}
+                      {paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').split('<strong>').map((part, j) => {
+                        if (j === 0) return part;
+                        const [boldText, rest] = part.split('</strong>');
+                        return (
+                          <span key={j}>
+                            <strong className="text-[#d4af37] font-semibold">{boldText}</strong>
+                            {rest}
+                          </span>
+                        );
+                      })}
+                    </p>
+                  ))}
+                </div>
+              </motion.div>
+            )}
 
           </motion.div>
         )}

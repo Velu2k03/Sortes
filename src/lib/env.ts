@@ -12,31 +12,32 @@ const serverEnvSchema = z.object({
     .default("https://tarot.resonantatlas.com"),
 
   // OpenRouter
-  OPENROUTER_API_KEY: z.string().min(1, "OPENROUTER_API_KEY is required"),
+  OPENROUTER_API_KEY: z.string().min(1, "OPENROUTER_API_KEY is required").optional(),
   OPENROUTER_MODELS: z
     .string()
     .min(1)
-    .transform((s) => s.split(",").map((m) => m.trim())),
+    .optional()
+    .transform((s) => s ? s.split(",").map((m) => m.trim()) : ["mistralai/mistral-7b-instruct"]),
 
   // Supabase
-  NEXT_PUBLIC_SUPABASE_URL: z.string().url(),
-  NEXT_PUBLIC_SUPABASE_ANON_KEY: z.string().min(1),
-  SUPABASE_SERVICE_ROLE_KEY: z.string().min(1),
+  NEXT_PUBLIC_SUPABASE_URL: z.string().url().optional(),
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: z.string().min(1).optional(),
+  SUPABASE_SERVICE_ROLE_KEY: z.string().min(1).optional(),
 
   // Lemon Squeezy
-  LEMONSQUEEZY_API_KEY: z.string().min(1),
-  LEMONSQUEEZY_STORE_ID: z.string().min(1),
-  LEMONSQUEEZY_WEBHOOK_SECRET: z.string().min(1),
-  LEMONSQUEEZY_VARIANT_PACK_5: z.string().min(1),
-  LEMONSQUEEZY_VARIANT_PACK_12: z.string().min(1),
-  LEMONSQUEEZY_VARIANT_PACK_30: z.string().min(1),
+  LEMONSQUEEZY_API_KEY: z.string().min(1).optional(),
+  LEMONSQUEEZY_STORE_ID: z.string().min(1).optional(),
+  LEMONSQUEEZY_WEBHOOK_SECRET: z.string().min(1).optional(),
+  LEMONSQUEEZY_VARIANT_PACK_5: z.string().min(1).optional(),
+  LEMONSQUEEZY_VARIANT_PACK_12: z.string().min(1).optional(),
+  LEMONSQUEEZY_VARIANT_PACK_30: z.string().min(1).optional(),
 
   // Umami
   NEXT_PUBLIC_UMAMI_WEBSITE_ID: z.string().optional(),
   NEXT_PUBLIC_UMAMI_SRC: z.string().url().optional(),
 
   // Cron
-  CRON_SECRET: z.string().min(1),
+  CRON_SECRET: z.string().min(1).optional(),
 });
 
 export type ServerEnv = z.infer<typeof serverEnvSchema>;
