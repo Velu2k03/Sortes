@@ -230,8 +230,8 @@ console.log("══════════════════════�
 // 1. TypeScript
 run("TypeScript typecheck", "npx tsc --noEmit");
 
-// 2. ESLint
-run("ESLint", "npx next lint");
+// 2. ESLint (Next.js 16 removed `next lint`; run eslint directly)
+run("ESLint", "npx eslint src");
 
 // 3. Build
 run("Next.js build", "npx next build");

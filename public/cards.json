@@ -1,0 +1,2155 @@
+[
+  {
+    "id": "the-fool",
+    "name": "The Fool",
+    "arcana": "Major",
+    "suit": null,
+    "number": 0,
+    "keywords": {
+      "upright": [
+        "freedom",
+        "faith",
+        "inexperience",
+        "innocence"
+      ],
+      "reversed": [
+        "Being gullible and naive",
+        "Taking unnecessary risks",
+        "Failing to be serious when required",
+        "Being silly or distracted",
+        "Lacking experience",
+        "Failing to honor well-established traditions and limits"
+      ]
+    },
+    "meaning": {
+      "upright": "Freeing yourself from limitation. Expressing joy and youthful vigor. Being open-minded. Taking a leap of faith. Attuning yourself to your instincts. Being eager or curious. Exploring your potential. Embracing innovation and change.",
+      "reversed": "Being gullible and naive. Taking unnecessary risks. Failing to be serious when required. Being silly or distracted. Lacking experience. Failing to honor well-established traditions and limits. Behaving inappropriately."
+    },
+    "image": "/cards/major-00-the-fool.jpg"
+  },
+  {
+    "id": "the-magician",
+    "name": "The Magician",
+    "arcana": "Major",
+    "suit": null,
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "capability",
+        "empowerment",
+        "activity"
+      ],
+      "reversed": [
+        "Inflating your own ego",
+        "Abusing talents",
+        "Manipulating or deceiving others",
+        "Being too aggressive",
+        "Using cheap illusions to dazzle others",
+        "Refusing to invest the time and effort needed to master your craft"
+      ]
+    },
+    "meaning": {
+      "upright": "Taking appropriate action. Receiving guidance from a higher power. Becoming a channel of divine will. Expressing masculine energy in appropriate and constructive ways. Being yourself in every way.",
+      "reversed": "Inflating your own ego. Abusing talents. Manipulating or deceiving others. Being too aggressive. Using cheap illusions to dazzle others. Refusing to invest the time and effort needed to master your craft. Taking shortcuts."
+    },
+    "image": "/cards/major-01-the-magician.jpg"
+  },
+  {
+    "id": "the-high-priestess",
+    "name": "The High Priestess",
+    "arcana": "Major",
+    "suit": null,
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "intuition",
+        "reflection",
+        "purity",
+        "initiation"
+      ],
+      "reversed": [
+        "Being aloof",
+        "Obsessing on secrets and conspiracies",
+        "Rejecting guidance from spirit or intuition",
+        "Revealing all",
+        "Ignoring gut feelings",
+        "Refusing to become involved, even when involvement is appropriate"
+      ]
+    },
+    "meaning": {
+      "upright": "Listening to your feelings and intuitions. Exploring unconventional spirituality. Keeping secrets. Being receptive. Reflecting instead of acting. Observing others. Preserving purity.",
+      "reversed": "Being aloof. Obsessing on secrets and conspiracies. Rejecting guidance from spirit or intuition. Revealing all. Ignoring gut feelings. Refusing to become involved, even when involvement is appropriate."
+    },
+    "image": "/cards/major-02-the-high-priestess.jpg"
+  },
+  {
+    "id": "the-empress",
+    "name": "The Empress",
+    "arcana": "Major",
+    "suit": null,
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "fertility",
+        "productivity",
+        "ripeness",
+        "nurturing"
+      ],
+      "reversed": [
+        "Overindulging",
+        "Being greedy",
+        "Smothering someone with attention",
+        "Debilitating someone by being overprotective",
+        "Inhibiting productivity by obsessing on productivity",
+        "Being overcome by addictive behavior"
+      ]
+    },
+    "meaning": {
+      "upright": "Nurturing yourself and others. Bearing fruit. Celebrating your body. Bearing (literal or figurative) children. Reveling in luxury. Mothering those around you in positive ways. Enjoying your sexuality. Getting things done.",
+      "reversed": "Overindulging. Being greedy. Smothering someone with attention. Debilitating someone by being overprotective. Inhibiting productivity by obsessing on productivity. Being overcome by addictive behavior."
+    },
+    "image": "/cards/major-03-the-empress.jpg"
+  },
+  {
+    "id": "the-emperor",
+    "name": "The Emperor",
+    "arcana": "Major",
+    "suit": null,
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "authority",
+        "regulation",
+        "direction",
+        "structure"
+      ],
+      "reversed": [
+        "Micromanaging",
+        "Crushing the creativity of others with a rigid, iron-fisted approach",
+        "Insisting on getting your own way",
+        "Assuming a dictatorial mindset",
+        "Using overt force to achieve your goals and maintain order"
+      ]
+    },
+    "meaning": {
+      "upright": "Exercising authority. Defining limits. Directing the flow of work. Communicating clear guidelines. Being in control of yourself and others. Tempering aggressive masculinity with wisdom and experience.",
+      "reversed": "Micromanaging. Crushing the creativity of others with a rigid, iron-fisted approach. Insisting on getting your own way. Assuming a dictatorial mindset. Using overt force to achieve your goals and maintain order."
+    },
+    "image": "/cards/major-04-the-emperor.jpg"
+  },
+  {
+    "id": "the-hierophant",
+    "name": "The Hierophant",
+    "arcana": "Major",
+    "suit": null,
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "guidance",
+        "knowledge",
+        "revelation",
+        "belief"
+      ],
+      "reversed": [
+        "Using experience as a means of manipulating or misguiding others",
+        "Being dogmatic",
+        "Favoring tradition over what is expedient or necessary",
+        "Going through the motions of empty rituals",
+        "Concealing wisdom",
+        "Restricting access to spiritual truths or the gods"
+      ]
+    },
+    "meaning": {
+      "upright": "Teaching or guiding others. Searching for the truth. Asking for guidance from a higher power. Acknowledging the wisdom and experience of others. Taking vows. Engaging in heartfelt rituals. Volunteering.",
+      "reversed": "Using experience as a means of manipulating or misguiding others. Being dogmatic. Favoring tradition over what is expedient or necessary. Going through the motions of empty rituals. Concealing wisdom. Restricting access to spiritual truths or the gods."
+    },
+    "image": "/cards/major-05-the-hierophant.jpg"
+  },
+  {
+    "id": "the-lovers",
+    "name": "The Lovers",
+    "arcana": "Major",
+    "suit": null,
+    "number": 6,
+    "keywords": {
+      "upright": [
+        "love",
+        "passion",
+        "unity",
+        "choice"
+      ],
+      "reversed": [
+        "Debilitating passion",
+        "Allowing an unhealthy desire for love to motivate destructive behavior",
+        "Disrupting unity",
+        "Working against the best interests of those who care about you",
+        "Ill-informed decisions"
+      ]
+    },
+    "meaning": {
+      "upright": "Being in love. Showing your love to others. Expressing passion or romantic feelings. Aligning yourself with groups or like-minded others. Bringing people together. Making well-informed decisions.",
+      "reversed": "Debilitating passion. Allowing an unhealthy desire for love to motivate destructive behavior. Disrupting unity. Working against the best interests of those who care about you. Ill-informed decisions."
+    },
+    "image": "/cards/major-06-the-lovers.jpg"
+  },
+  {
+    "id": "the-chariot",
+    "name": "The Chariot",
+    "arcana": "Major",
+    "suit": null,
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "advancement",
+        "victory",
+        "triumph",
+        "success"
+      ],
+      "reversed": [
+        "Resting on laurels",
+        "Riding roughshod over the feelings or expectations of others",
+        "Focusing more on past successes than future opportunities",
+        "Failing to rein in impulsive behavior"
+      ]
+    },
+    "meaning": {
+      "upright": "Breaking through barriers. Moving forward with confidence and authority. Reaching the pinnacle of success. Basking in the glory of achievement. Guiding an effort to total victory. Establishing yourself as a worthy leader.",
+      "reversed": "Resting on laurels. Riding roughshod over the feelings or expectations of others. Focusing more on past successes than future opportunities. Failing to rein in impulsive behavior."
+    },
+    "image": "/cards/major-07-the-chariot.jpg"
+  },
+  {
+    "id": "strength",
+    "name": "Strength",
+    "arcana": "Major",
+    "suit": null,
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "discipline",
+        "boldness",
+        "self-discipline",
+        "power",
+        "vitality"
+      ],
+      "reversed": [
+        "Indulging weakness, even when you know it will damage your health and happiness",
+        "Languishing in addiction",
+        "Allowing your instincts to tame and conquer you",
+        "Failing to take a stand when necessary"
+      ]
+    },
+    "meaning": {
+      "upright": "Imposing restrictions on yourself for your own benefit. Bringing your passions under the control of reason. Resisting impulses that work against your best interests. Taking bold action.",
+      "reversed": "Indulging weakness, even when you know it will damage your health and happiness. Languishing in addiction. Allowing your instincts to tame and conquer you. Failing to take a stand when necessary."
+    },
+    "image": "/cards/major-08-strength.jpg"
+  },
+  {
+    "id": "the-hermit",
+    "name": "The Hermit",
+    "arcana": "Major",
+    "suit": null,
+    "number": 9,
+    "keywords": {
+      "upright": [
+        "solitude",
+        "experience",
+        "stillness",
+        "withdrawal"
+      ],
+      "reversed": [
+        "Being a loner",
+        "Fearing contact with others",
+        "Becoming a know-it-all",
+        "Inflating claims of expertise",
+        "Hiding your skills and talents out of fear of unworthiness"
+      ]
+    },
+    "meaning": {
+      "upright": "Becoming or seeking out a guru. Going on a retreat. Recharging spiritual or creative batteries. Lighting the way for those with less experience. Stepping back to gain perspective.",
+      "reversed": "Being a loner. Fearing contact with others. Becoming a know-it-all. Inflating claims of expertise. Hiding your skills and talents out of fear of unworthiness."
+    },
+    "image": "/cards/major-09-the-hermit.jpg"
+  },
+  {
+    "id": "wheel-of-fortune",
+    "name": "Wheel Of Fortune",
+    "arcana": "Major",
+    "suit": null,
+    "number": 10,
+    "keywords": {
+      "upright": [
+        "luck",
+        "randomness",
+        "cycles",
+        "karma",
+        "fate",
+        "revolution"
+      ],
+      "reversed": [
+        "Losing money gambling",
+        "Refusing to do your part to bring a plan to fruition",
+        "Taking a fatalistic approach to life",
+        "Fighting the natural course of events"
+      ]
+    },
+    "meaning": {
+      "upright": "Allowing events to unfold. Seeing the larger pattern in everyday events. Trusting your luck. Watching for cycles. Believing that \"what goes around, comes around\".",
+      "reversed": "Losing money gambling. Refusing to do your part to bring a plan to fruition. Taking a fatalistic approach to life. Fighting the natural course of events."
+    },
+    "image": "/cards/major-10-wheel-of-fortune.jpg"
+  },
+  {
+    "id": "justice",
+    "name": "Justice",
+    "arcana": "Major",
+    "suit": null,
+    "number": 11,
+    "keywords": {
+      "upright": [
+        "balance",
+        "law",
+        "fairness",
+        "objectivity"
+      ],
+      "reversed": [
+        "Delivering harsh criticism",
+        "Obsessing on rules and regulations",
+        "Playing by the book even when it is destructive or counterproductive to do so",
+        "Confusing snap decisions with timely action",
+        "Playing favorites"
+      ]
+    },
+    "meaning": {
+      "upright": "Making an objective decision. Weighing an issue carefully before taking action. Appropriately scaling your reaction to a situation. Getting all the facts. Considering evidence. Deliberating.",
+      "reversed": "Delivering harsh criticism. Obsessing on rules and regulations. Playing by the book even when it is destructive or counterproductive to do so. Confusing snap decisions with timely action. Playing favorites."
+    },
+    "image": "/cards/major-11-justice.jpg"
+  },
+  {
+    "id": "the-hanged-man",
+    "name": "The Hanged Man",
+    "arcana": "Major",
+    "suit": null,
+    "number": 12,
+    "keywords": {
+      "upright": [
+        "enlightenment",
+        "sacrifice",
+        "perspective",
+        "suspension",
+        "reversals"
+      ],
+      "reversed": [
+        "Being untrue to yourself and your values",
+        "Refusing to make sacrifices when appropriate",
+        "Refusing to adapt to new situations",
+        "Blaming others",
+        "Profiting at the expense of others"
+      ]
+    },
+    "meaning": {
+      "upright": "Seeing growth opportunities in unpleasant events. Experiencing a dramatic change in personal perspective. Making the best of an unforeseen change in your life or work. Suspending disbelief. Making sacrifices.",
+      "reversed": "Being untrue to yourself and your values. Refusing to make sacrifices when appropriate. Refusing to adapt to new situations. Blaming others. Profiting at the expense of others."
+    },
+    "image": "/cards/major-12-the-hanged-man.jpg"
+  },
+  {
+    "id": "death",
+    "name": "Death",
+    "arcana": "Major",
+    "suit": null,
+    "number": 13,
+    "keywords": {
+      "upright": [
+        "ending",
+        "conclusion",
+        "transition",
+        "passage",
+        "departure"
+      ],
+      "reversed": [
+        "Obsessing on death and dying",
+        "Refusing to give up old habits or unhealthy relationships",
+        "Insisting that everything and everyone should stay the same forever",
+        "Failing to take good care of yourself"
+      ]
+    },
+    "meaning": {
+      "upright": "Bringing an unpleasant phase of life to an end. Recognizing and celebrating the conclusion of something. Putting bad habits to rest. Becoming a new person. Leaving one person, place, or thing for another. Letting go.",
+      "reversed": "Obsessing on death and dying. Refusing to give up old habits or unhealthy relationships. Insisting that everything and everyone should stay the same forever. Failing to take good care of yourself."
+    },
+    "image": "/cards/major-13-death.jpg"
+  },
+  {
+    "id": "temperance",
+    "name": "Temperance",
+    "arcana": "Major",
+    "suit": null,
+    "number": 14,
+    "keywords": {
+      "upright": [
+        "blending",
+        "synthesis",
+        "mediation",
+        "combination",
+        "harmony"
+      ],
+      "reversed": [
+        "Going to extremes",
+        "Disrupting group efforts",
+        "Ignoring healthy approaches to life",
+        "Becoming an addict",
+        "Practicing gluttony",
+        "Tearing something or someone apart"
+      ]
+    },
+    "meaning": {
+      "upright": "Bringing opposites together. Moderating your actions or emotions. Finding middle ground. Reaching compromises. Synthesizing solutions that please everyone involved. Using the old to make something new.",
+      "reversed": "Going to extremes. Disrupting group efforts. Ignoring healthy approaches to life. Becoming an addict. Practicing gluttony. Tearing something or someone apart. Breaking alliances."
+    },
+    "image": "/cards/major-14-temperance.jpg"
+  },
+  {
+    "id": "the-devil",
+    "name": "The Devil",
+    "arcana": "Major",
+    "suit": null,
+    "number": 15,
+    "keywords": {
+      "upright": [
+        "shadow",
+        "materialism",
+        "bondage",
+        "delusion"
+      ],
+      "reversed": [
+        "Putting excessive emphasis on appearances",
+        "Always wanting more",
+        "Valuing possessions more than people or relationships",
+        "Allowing base instincts to govern your life",
+        "Being selfish",
+        "Attributing your own dark impulses to outside forces or other people"
+      ]
+    },
+    "meaning": {
+      "upright": "Appreciating the luxuries that life has to offer. Being comfortable in your own skin. Enjoying your sexuality. Splurging on an expensive personal item. Embracing the fact that everyone has a darker side. Dealing with unhealthy impulses in healthy ways.",
+      "reversed": "Putting excessive emphasis on appearances. Always wanting more. Valuing possessions more than people or relationships. Allowing base instincts to govern your life. Being selfish. Attributing your own dark impulses to outside forces or other people."
+    },
+    "image": "/cards/major-15-the-devil.jpg"
+  },
+  {
+    "id": "the-tower",
+    "name": "The Tower",
+    "arcana": "Major",
+    "suit": null,
+    "number": 16,
+    "keywords": {
+      "upright": [
+        "demolition",
+        "upheaval",
+        "deconstruction",
+        "disaster",
+        "destruction"
+      ],
+      "reversed": [
+        "Clinging to traditions that repress growth",
+        "Engaging in willful blindness",
+        "Rejecting evidence that change is needed",
+        "Ignoring guidance from a higher power",
+        "Maliciously engaging in destructive behavior"
+      ]
+    },
+    "meaning": {
+      "upright": "Breaking out of old, confining habits and mindsets. Clearing the way for new growth. Dispelling the influence of an inflated ego. Getting back to basics. Stripping away harmful illusions. Receiving sudden insight.",
+      "reversed": "Clinging to traditions that repress growth. Engaging in willful blindness. Rejecting evidence that change is needed. Ignoring guidance from a higher power. Maliciously engaging in destructive behavior."
+    },
+    "image": "/cards/major-16-the-tower.jpg"
+  },
+  {
+    "id": "the-star",
+    "name": "The Star",
+    "arcana": "Major",
+    "suit": null,
+    "number": 17,
+    "keywords": {
+      "upright": [
+        "hope",
+        "optimism",
+        "openness",
+        "certainty",
+        "faith",
+        "longing"
+      ],
+      "reversed": [
+        "Denying unpleasant truths",
+        "Denying personal accountability and saying, \"Things just happen!\"",
+        "Ignoring signs and omens",
+        "Preferring illusion to reality",
+        "Spreading pessimism and stinginess of spirit"
+      ]
+    },
+    "meaning": {
+      "upright": "Hoping for the best. Believing good things happen to good people. Seeing events in the best possible light. Adopting a generous spirit. Seeking guidance from above. Embracing possibility over probability.",
+      "reversed": "Denying unpleasant truths. Denying personal accountability and saying, \"Things just happen!\". Ignoring signs and omens. Preferring illusion to reality. Spreading pessimism and stinginess of spirit."
+    },
+    "image": "/cards/major-17-the-star.jpg"
+  },
+  {
+    "id": "the-moon",
+    "name": "The Moon",
+    "arcana": "Major",
+    "suit": null,
+    "number": 18,
+    "keywords": {
+      "upright": [
+        "mystery",
+        "fantasy",
+        "imagination",
+        "dreams",
+        "uncertainty"
+      ],
+      "reversed": [
+        "Becoming unable to separate fantasy from reality",
+        "Suffering from delusions",
+        "Losing your appreciation for the fantastic or magical",
+        "Adopting a ruthlessly logical mindset",
+        "Failing to appreciate life's mysteries"
+      ]
+    },
+    "meaning": {
+      "upright": "Enjoying healthy fantasies and daydreams. Using your imagination. Practicing magic or celebrating the magic of everyday life. Attuning yourself to the cycles of nature. Embracing the unknown.",
+      "reversed": "Becoming unable to separate fantasy from reality. Suffering from delusions. Losing your appreciation for the fantastic or magical. Adopting a ruthlessly logical mindset. Failing to appreciate life's mysteries."
+    },
+    "image": "/cards/major-18-the-moon.jpg"
+  },
+  {
+    "id": "the-sun",
+    "name": "The Sun",
+    "arcana": "Major",
+    "suit": null,
+    "number": 19,
+    "keywords": {
+      "upright": [
+        "joy",
+        "brilliance",
+        "validation",
+        "attention",
+        "energy"
+      ],
+      "reversed": [
+        "Being dazzled by your own accomplishments",
+        "Becoming absorbed in your own self-image",
+        "Feeling rushed and distracted",
+        "Exerting yourself to the point of exhaustion",
+        "Overstating your abilities or misrepresenting your achievements"
+      ]
+    },
+    "meaning": {
+      "upright": "Seeing things clearly. Experiencing intense joy. Celebrating your own successes. Knowing you're good at what you do. Gaining recognition for your personal genius.",
+      "reversed": "Being dazzled by your own accomplishments. Becoming absorbed in your own self-image. Feeling rushed and distracted. Exerting yourself to the point of exhaustion. Overstating your abilities or misrepresenting your achievements."
+    },
+    "image": "/cards/major-19-the-sun.jpg"
+  },
+  {
+    "id": "judgement",
+    "name": "Judgement",
+    "arcana": "Major",
+    "suit": null,
+    "number": 20,
+    "keywords": {
+      "upright": [
+        "revival",
+        "renewal",
+        "resurrection",
+        "evaluation",
+        "invitation"
+      ],
+      "reversed": [
+        "Being weighed in the balances and found wanting",
+        "Failing to measure up to a well-defined standard",
+        "Being caught goofing off or misbehaving",
+        "Failing to prepare for an examination you know is coming",
+        "Rejecting an opportunity to reinvent yourself"
+      ]
+    },
+    "meaning": {
+      "upright": "Receiving a wake-up call. Discovering a new purpose in life. Becoming totally and completely yourself. Receiving a well-deserved reward. Passing an evaluation or examination. Welcoming the start of a new phase of life.",
+      "reversed": "Being weighed in the balances and found wanting. Failing to measure up to a well-defined standard. Being caught goofing off or misbehaving. Failing to prepare for an examination you know is coming. Rejecting an opportunity to reinvent yourself."
+    },
+    "image": "/cards/major-20-judgement.jpg"
+  },
+  {
+    "id": "the-world",
+    "name": "The World",
+    "arcana": "Major",
+    "suit": null,
+    "number": 21,
+    "keywords": {
+      "upright": [
+        "wholeness",
+        "integration",
+        "totality",
+        "completeness",
+        "fullness"
+      ],
+      "reversed": [
+        "Allowing greed and envy to prevent you from enjoying what you do possess",
+        "Failing to see the larger design in ordinary events",
+        "Believing that everything that exists can be touched, counted, or measured",
+        "Failing to see the divine reflected in those around you"
+      ]
+    },
+    "meaning": {
+      "upright": "Having it all. Knowing and loving yourself as completely as possible. Seeing the interconnection of all things and people. Enhancing your perspective. Living life to its fullest. Understanding the meaning of life.",
+      "reversed": "Allowing greed and envy to prevent you from enjoying what you do possess. Failing to see the larger design in ordinary events. Believing that everything that exists can be touched, counted, or measured. Failing to see the divine reflected in those around you."
+    },
+    "image": "/cards/major-21-the-world.jpg"
+  },
+  {
+    "id": "ace-of-wands",
+    "name": "Ace Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "desire",
+        "inspiration",
+        "vision",
+        "creation",
+        "invention"
+      ],
+      "reversed": [
+        "Failing to take advantage of a great opportunity",
+        "Being ineffectual or lazy",
+        "Making an inadequate effort",
+        "Working toward a goal, but lacking the resources or initiative to achieve success",
+        "Setting inappropriate goals",
+        "Failing to take a stand"
+      ]
+    },
+    "meaning": {
+      "upright": "Being inspired. Identifying an important goal. Being given the opportunity to do whatever you want to do. Giving or receiving direction. Seeing a solution. Creating something new. Being aroused, sexually or creatively.",
+      "reversed": "Failing to take advantage of a great opportunity. Being ineffectual or lazy. Making an inadequate effort. Working toward a goal, but lacking the resources or initiative to achieve success. Setting inappropriate goals. Failing to take a stand."
+    },
+    "image": "/cards/wands-ace.jpg"
+  },
+  {
+    "id": "two-of-wands",
+    "name": "Two Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "conflict",
+        "decision",
+        "option",
+        "individuality"
+      ],
+      "reversed": [
+        "Misrepresenting your intentions",
+        "Doing one thing while desiring another",
+        "Changing course mid-stream for no good reason",
+        "Refusing to change your goal even when pursuing it no longer makes sense",
+        "Disregarding the input of others"
+      ]
+    },
+    "meaning": {
+      "upright": "Having a choice. Offering or being offered an option. Seeing the value of another person's approach. Understanding there's more than one way to \"skin a cat\". Successfully doing more than one thing at a time. Being empowered to make a choice.",
+      "reversed": "Misrepresenting your intentions. Doing one thing while desiring another. Changing course mid-stream for no good reason. Refusing to change your goal even when pursuing it no longer makes sense. Disregarding the input of others."
+    },
+    "image": "/cards/wands-02.jpg"
+  },
+  {
+    "id": "three-of-wands",
+    "name": "Three Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "implementation",
+        "action",
+        "exploration"
+      ],
+      "reversed": [
+        "Procrastinating",
+        "Knowing what to do, but refusing to do it",
+        "Launching a project without a clear definition of who should do what",
+        "Rejecting an opportunity to try something new",
+        "Failing to finish what you start"
+      ]
+    },
+    "meaning": {
+      "upright": "Putting a plan into motion. Taking that critical first step. Making good things happen. Going beyond your limits. Blazing new trails. Hitting the ground running. Seeing your plans come to fruition.",
+      "reversed": "Procrastinating. Knowing what to do, but refusing to do it. Launching a project without a clear definition of who should do what. Rejecting an opportunity to try something new. Failing to finish what you start."
+    },
+    "image": "/cards/wands-03.jpg"
+  },
+  {
+    "id": "four-of-wands",
+    "name": "Four Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "celebration",
+        "jubilation",
+        "community",
+        "teamwork",
+        "completion"
+      ],
+      "reversed": [
+        "Keeping your nose to the grindstone",
+        "Recognizing good work by demanding more work",
+        "Failing to share in a group celebration",
+        "Allowing sour grapes to poison your moment in the sun",
+        "Refusing to do your part"
+      ]
+    },
+    "meaning": {
+      "upright": "Sharing in a great celebration. Sharing in a communal sense of achievement and success. Preparing for a party. Working together toward a common goal. Giving or winning awards.",
+      "reversed": "Keeping your nose to the grindstone. Recognizing good work by demanding more work. Failing to share in a group celebration. Allowing sour grapes to poison your moment in the sun. Refusing to do your part."
+    },
+    "image": "/cards/wands-04.jpg"
+  },
+  {
+    "id": "five-of-wands",
+    "name": "Five Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "confrontation",
+        "disruption",
+        "distinction",
+        "objection",
+        "strife"
+      ],
+      "reversed": [
+        "Berating others for their ridiculous opinions",
+        "Picking fights",
+        "Offering destructive criticism",
+        "Baiting people with barbed remarks",
+        "Disrupting progress with an endless stream of pointless objections"
+      ]
+    },
+    "meaning": {
+      "upright": "Calmly expressing a dissenting opinion. Allowing someone to use his or her own methods to get a job done. Opening the floor for discussion or debate. Comparing progress made so far to standards set earlier.",
+      "reversed": "Berating others for their ridiculous opinions. Picking fights. Offering destructive criticism. Baiting people with barbed remarks. Disrupting progress with an endless stream of pointless objections."
+    },
+    "image": "/cards/wands-05.jpg"
+  },
+  {
+    "id": "six-of-wands",
+    "name": "Six Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 6,
+    "keywords": {
+      "upright": [
+        "victory",
+        "achievement",
+        "success",
+        "triumph"
+      ],
+      "reversed": [
+        "Being a bad winner",
+        "Allowing your achievements to inflate your ego",
+        "Looking down on people who seem less capable",
+        "Craving to be the center of attention",
+        "Giving or receiving insincere praise",
+        "Envying the achievements of others"
+      ]
+    },
+    "meaning": {
+      "upright": "Outperforming your peers. Winning a competition. Being recognized as a capable person. Having your \"moment in the spotlight\". Being cheered on by the crowd. Getting an award. Earning the admiration of others. Telling someone, \"Good job!\".",
+      "reversed": "Being a bad winner. Allowing your achievements to inflate your ego. Looking down on people who seem less capable. Craving to be the center of attention. Giving or receiving insincere praise. Envying the achievements of others."
+    },
+    "image": "/cards/wands-06.jpg"
+  },
+  {
+    "id": "seven-of-wands",
+    "name": "Seven Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "bravery",
+        "resolve",
+        "determination"
+      ],
+      "reversed": [
+        "Having a chip on your shoulder",
+        "Taking unnecessary risks as a means of proving your fearlessness",
+        "Looking for an opportunity to take offense",
+        "Responding to constructive criticism with defensiveness",
+        "Refusing to stand up for yourself and your beliefs"
+      ]
+    },
+    "meaning": {
+      "upright": "Refusing to be silenced through fear or intimidation. Continuing a fight against all odds. Being fierce. Defending yourself against physical and emotional attacks. Refusing to put up with abuse. Clinging to your values despite all pressure to abandon them.",
+      "reversed": "Having a chip on your shoulder. Taking unnecessary risks as a means of proving your fearlessness. Looking for an opportunity to take offense. Responding to constructive criticism with defensiveness. Refusing to stand up for yourself and your beliefs."
+    },
+    "image": "/cards/wands-07.jpg"
+  },
+  {
+    "id": "eight-of-wands",
+    "name": "Eight Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "speed",
+        "swiftness",
+        "responsiveness",
+        "change"
+      ],
+      "reversed": [
+        "Giving in to panic",
+        "Running in circles and screaming",
+        "Insisting things must always stay the same",
+        "Stirring the pot just to see what will happen",
+        "Rushing others",
+        "Refusing to re-evaluate a schedule or program, even when it's clearly no longer appropriate"
+      ]
+    },
+    "meaning": {
+      "upright": "Taking swift action. Moving forward with a plan as quickly as possible. Energizing yourself. Adapting to sudden changes. Taking setbacks in stride. Embracing the idea that nothing stays the same forever. Reacting quickly and appropriately to unforeseen problems.",
+      "reversed": "Giving in to panic. Running in circles and screaming. Insisting things must always stay the same. Stirring the pot just to see what will happen. Rushing others. Refusing to re-evaluate a schedule or program, even when it's clearly no longer appropriate."
+    },
+    "image": "/cards/wands-08.jpg"
+  },
+  {
+    "id": "nine-of-wands",
+    "name": "Nine Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 9,
+    "keywords": {
+      "upright": [
+        "toughness",
+        "persistence",
+        "stamina",
+        "loyalty",
+        "release"
+      ],
+      "reversed": [
+        "Making yourself a martyr",
+        "Abandoning your post",
+        "Giving up at the first sign of opposition",
+        "Being prevented from fulfilling an obligation",
+        "Failing to be dependable",
+        "Refusing to let something go that needs to be released"
+      ]
+    },
+    "meaning": {
+      "upright": "Sticking with it for the duration. Fulfilling your promises and obligations. Bearing up under incredible duress. Dragging yourself across the finish line. Picking yourself up by your own bootstraps. Refusing to quit. Going as far as you can go and being satisfied with your performance.",
+      "reversed": "Making yourself a martyr. Abandoning your post. Giving up at the first sign of opposition. Being prevented from fulfilling an obligation. Failing to be dependable. Refusing to let something go that needs to be released. Beating a dead horse."
+    },
+    "image": "/cards/wands-09.jpg"
+  },
+  {
+    "id": "ten-of-wands",
+    "name": "Ten Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": 10,
+    "keywords": {
+      "upright": [
+        "exhaustion",
+        "resistance",
+        "burden",
+        "oppression"
+      ],
+      "reversed": [
+        "Taking on more work than you know you can handle",
+        "Refusing to say \"No\" when you're already overloaded",
+        "Making a habit of working overtime",
+        "Shielding others from facing the consequences of their own poor judgment",
+        "Over-extending yourself on a regular basis"
+      ]
+    },
+    "meaning": {
+      "upright": "Holding your own in extreme circumstances. Helping others carry their burdens. Coming to the aid of the oppressed. Knowing and being honest about your own limits. Recognizing when you are not well-suited for a particular task.",
+      "reversed": "Taking on more work than you know you can handle. Refusing to say \"No\" when you're already overloaded. Making a habit of working overtime. Shielding others from facing the consequences of their own poor judgment. Over-extending yourself on a regular basis."
+    },
+    "image": "/cards/wands-10.jpg"
+  },
+  {
+    "id": "page-of-wands",
+    "name": "Page Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": "page",
+    "keywords": {
+      "upright": [
+        "enthusiasm",
+        "eagerness",
+        "confidence",
+        "validation",
+        "affirmation"
+      ],
+      "reversed": [
+        "Basing your entire self-image on what others think",
+        "Seizing every new idea that comes your way without question",
+        "Habitually discounting input or feedback from others",
+        "Being so eager to \"do it yourself\" that you hinder your own progress"
+      ]
+    },
+    "meaning": {
+      "upright": "Leaping at a new opportunity. Being a cheerleader or ardent advocate for your cause. Being a True Believer. Taking first steps toward independence. Trusting in your own abilities. Asking for feedback.",
+      "reversed": "Basing your entire self-image on what others think. Seizing every new idea that comes your way without question. Habitually discounting input or feedback from others. Being so eager to \"do it yourself\" that you hinder your own progress."
+    },
+    "image": "/cards/wands-page.jpg"
+  },
+  {
+    "id": "knight-of-wands",
+    "name": "Knight Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": "knight",
+    "keywords": {
+      "upright": [
+        "boldness",
+        "bravado",
+        "passion",
+        "persuasion",
+        "advocacy"
+      ],
+      "reversed": [
+        "Blundering forward with inadequate skill or information",
+        "Running roughshod over the feelings of others",
+        "Using sex appeal to manipulate others",
+        "Forcing your leadership or ideology on others",
+        "Beginning many projects without finishing any"
+      ]
+    },
+    "meaning": {
+      "upright": "Charging ahead. Making rapid progress. Refusing limits. Dazzling those around you with your wit and charm. Convincing others of your right to leadership. Convincing others to follow you. Being a catalyst for change.",
+      "reversed": "Blundering forward with inadequate skill or information. Running roughshod over the feelings of others. Using sex appeal to manipulate others. Forcing your leadership or ideology on others. Beginning many projects without finishing any."
+    },
+    "image": "/cards/wands-knight.jpg"
+  },
+  {
+    "id": "queen-of-wands",
+    "name": "Queen Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": "queen",
+    "keywords": {
+      "upright": [
+        "attention",
+        "attraction",
+        "unification",
+        "collaboration"
+      ],
+      "reversed": [
+        "Being distracted, or using your charms or skills to distract others from the goal",
+        "Calling attention to yourself with negative or unhealthy behaviors",
+        "Disrupting group activities as a means of feeding your own ego"
+      ]
+    },
+    "meaning": {
+      "upright": "Paying close attention. Helping others focus on the issue at hand. Getting everyone to work together. Identifying common ground. Bringing people together, despite their differences. Using reverse psychology.",
+      "reversed": "Being distracted, or using your charms or skills to distract others from the goal. Calling attention to yourself with negative or unhealthy behaviors. Disrupting group activities as a means of feeding your own ego."
+    },
+    "image": "/cards/wands-queen.jpg"
+  },
+  {
+    "id": "king-of-wands",
+    "name": "King Of Wands",
+    "arcana": "Minor",
+    "suit": "Wands",
+    "number": "king",
+    "keywords": {
+      "upright": [
+        "creativity",
+        "ingenuity",
+        "achievement",
+        "direction"
+      ],
+      "reversed": [
+        "Using your creativity to get out of honest work",
+        "Investing great energy in avoiding responsibility",
+        "Boasting about achievements without putting your expertise to practical use",
+        "Lording it over others"
+      ]
+    },
+    "meaning": {
+      "upright": "Putting old things together in new and exciting ways. Coming up with unexpected solutions. Using your experience to solve puzzles and problems. Doing what you set out to do. Directing the efforts of others.",
+      "reversed": "Using your creativity to get out of honest work. Investing great energy in avoiding responsibility. Boasting about achievements without putting your expertise to practical use. Lording it over others."
+    },
+    "image": "/cards/wands-king.jpg"
+  },
+  {
+    "id": "ace-of-cups",
+    "name": "Ace Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "intuition",
+        "spirituality",
+        "affection",
+        "motivation"
+      ],
+      "reversed": [
+        "Hiding your feelings",
+        "Spurning an opportunity to love or be loved",
+        "Numbing yourself to spiritual yearnings",
+        "Rejecting the counsel of your heart",
+        "Becoming a puppet of your own emotions",
+        "Indulging in hysteria or obsession"
+      ]
+    },
+    "meaning": {
+      "upright": "Trusting your feelings. Opening yourself to spirit. Accepting and returning affection. Getting in touch with what motivates you. Taking advantage of an opportunity to express love to others. Listening to the still, small voice.",
+      "reversed": "Hiding your feelings. Spurning an opportunity to love or be loved. Numbing yourself to spiritual yearnings. Rejecting the counsel of your heart. Becoming a puppet of your own emotions. Indulging in hysteria or obsession."
+    },
+    "image": "/cards/cups-ace.jpg"
+  },
+  {
+    "id": "two-of-cups",
+    "name": "Two Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "union",
+        "attraction",
+        "combination",
+        "affection"
+      ],
+      "reversed": [
+        "Burning bridges",
+        "Becoming caught up in unhealthy codependency",
+        "Shutting out anyone but your chosen few",
+        "Obsessing on someone who does not return your affections",
+        "Despairing over finding \"The One\"",
+        "Deceiving yourself about your true orientation"
+      ]
+    },
+    "meaning": {
+      "upright": "Being drawn to someone. Longing for someone or something. Acting on your desires. Discovering a feeling is mutual. Doing what makes you feel good. Merging. Healing broken ties. Admitting two people feel differently about each other and moving on.",
+      "reversed": "Burning bridges. Becoming caught up in unhealthy codependency. Shutting out anyone but your chosen few. Obsessing on someone who does not return your affections. Despairing over finding \"The One\". Deceiving yourself about your true orientation."
+    },
+    "image": "/cards/cups-02.jpg"
+  },
+  {
+    "id": "three-of-cups",
+    "name": "Three Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "celebration",
+        "expression",
+        "community",
+        "friendliness"
+      ],
+      "reversed": [
+        "Mistaking giddiness for true affection",
+        "Being dominated by manic emotions",
+        "Expecting everyone to always feel the same way you do",
+        "Demanding unreasonable support from friends or family",
+        "Partying to a dangerous or unhealthy extent"
+      ]
+    },
+    "meaning": {
+      "upright": "Celebrating your feelings or connections with others. Expressing joy through song, dance, or physical affection. Working together with others who share your feelings. Performing acts of service as a way of saying, \"I love you\". Embracing unconventional romantic arrangements.",
+      "reversed": "Mistaking giddiness for true affection. Being dominated by manic emotions. Expecting everyone to always feel the same way you do. Demanding unreasonable support from friends or family. Partying to a dangerous or unhealthy extent."
+    },
+    "image": "/cards/cups-03.jpg"
+  },
+  {
+    "id": "four-of-cups",
+    "name": "Four Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "boredom",
+        "listlessness",
+        "lethargy",
+        "stability",
+        "ingratitude"
+      ],
+      "reversed": [
+        "Being bored",
+        "Daydreaming at the expense of your work",
+        "Refusing to be engaged by opportunity",
+        "Taking people and relationships for granted",
+        "Ignoring romantic or spiritual opportunities",
+        "Spurning inspiration"
+      ]
+    },
+    "meaning": {
+      "upright": "Maintaining your emotional stability. Refusing to give in to overwhelming emotions. Appreciating what you have and refusing to take it for granted. Seeing the value of long-term commitments.",
+      "reversed": "Being bored. Daydreaming at the expense of your work. Refusing to be engaged by opportunity. Taking people and relationships for granted. Ignoring romantic or spiritual opportunities. Spurning inspiration. Feeling everything should stay \"just like it is\"."
+    },
+    "image": "/cards/cups-04.jpg"
+  },
+  {
+    "id": "five-of-cups",
+    "name": "Five Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "loss",
+        "despair",
+        "re-evaluation",
+        "regret",
+        "uncertainty",
+        "repentance"
+      ],
+      "reversed": [
+        "Wallowing in unhealthy grief or self-pity",
+        "Refusing to move on and let go",
+        "Clinging to the past",
+        "Obsessing on past lives and past loves",
+        "Failing to live in the present",
+        "Beating yourself up over past mistakes"
+      ]
+    },
+    "meaning": {
+      "upright": "Acknowledging loss and moving on. Focusing on how the glass remains \"half-full\". Finding the silver lining in a dark cloud. Recognizing that loss is a natural part of life. Embracing healthy grief. Learning lessons from harsh consequences.",
+      "reversed": "Wallowing in unhealthy grief or self-pity. Refusing to move on and let go. Clinging to the past. Obsessing on past lives and past loves. Failing to live in the present. Beating yourself up over past mistakes. Allowing fear of failure to limit your efforts."
+    },
+    "image": "/cards/cups-05.jpg"
+  },
+  {
+    "id": "six-of-cups",
+    "name": "Six Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 6,
+    "keywords": {
+      "upright": [
+        "charity",
+        "sharing",
+        "sacrifice",
+        "cooperation",
+        "fairness"
+      ],
+      "reversed": [
+        "Linking your sense of self-worth to the appraisals of others",
+        "Striving to appear more needy than you really are",
+        "Taking undeserved or unmerited charity",
+        "Bragging about your charitable efforts",
+        "Profiteering in times of distress",
+        "Refusing to share a burden"
+      ]
+    },
+    "meaning": {
+      "upright": "Donating your time and talents to others. Taking satisfaction in knowing how your efforts will aid others. Creating a \"win-win\" scenario. Giving even when you know repayment is not possible. Being motivated to do a good deed.",
+      "reversed": "Linking your sense of self-worth to the appraisals of others. Striving to appear more needy than you really are. Taking undeserved or unmerited charity. Bragging about your charitable efforts. Profiteering in times of distress. Refusing to share a burden."
+    },
+    "image": "/cards/cups-06.jpg"
+  },
+  {
+    "id": "seven-of-cups",
+    "name": "Seven Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "imagination",
+        "dreams",
+        "illusions",
+        "goals"
+      ],
+      "reversed": [
+        "Obsessing on imaginary fears or uncertain consequences",
+        "Giving in to emotional or political terrorism",
+        "Spending more time dreaming than working",
+        "Failing to envision the possible repercussions of your choices",
+        "Being controlled by fear"
+      ]
+    },
+    "meaning": {
+      "upright": "Motivating yourself with images of future success. Using visualization to encourage progress. Taking an imaginative or creative approach to problem solving. Making dreams come true. Gleaning insight from personal visions.",
+      "reversed": "Obsessing on imaginary fears or uncertain consequences. Giving in to emotional or political terrorism. Spending more time dreaming than working. Failing to envision the possible repercussions of your choices. Being controlled by fear."
+    },
+    "image": "/cards/cups-07.jpg"
+  },
+  {
+    "id": "eight-of-cups",
+    "name": "Eight Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "longing",
+        "dissatisfaction",
+        "quest",
+        "departure",
+        "withdrawal"
+      ],
+      "reversed": [
+        "Being implacable",
+        "Finding fault",
+        "Nitpicking",
+        "Refusing to settle down",
+        "Running away from problems or confrontations",
+        "Saying, \"It's my way or the highway!\""
+      ]
+    },
+    "meaning": {
+      "upright": "Wanting something better. Blazing your own trail. Realizing there must be more to life. Leaving an unhealthy situation behind. Starting your own business. Going on a retreat. Seeking the \"still, small voice\".",
+      "reversed": "Being implacable. Finding fault. Nitpicking. Refusing to settle down. Running away from problems or confrontations. Saying, \"It's my way or the highway!\". Harping on past mistakes and disappointments. Threatening to quit as a strategy to get your way."
+    },
+    "image": "/cards/cups-08.jpg"
+  },
+  {
+    "id": "nine-of-cups",
+    "name": "Nine Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 9,
+    "keywords": {
+      "upright": [
+        "satisfaction",
+        "sensuality",
+        "luxury",
+        "pleasure"
+      ],
+      "reversed": [
+        "Being smug",
+        "Satisfying yourself at the expense of others",
+        "Being selfish",
+        "Over-indulging",
+        "Avoiding work that needs to be done",
+        "Claiming achievements or skills you do not possess"
+      ]
+    },
+    "meaning": {
+      "upright": "Being delighted with your own achievements. Recognizing your own talents and abilities. Reveling in the good things life has to offer. Indulging yourself. Relaxing and unwinding. Having everything you need in order to feel complete.",
+      "reversed": "Being smug. Satisfying yourself at the expense of others. Being selfish. Over-indulging. Avoiding work that needs to be done. Claiming achievements or skills you do not possess. Never being satisfied, no matter how much you have."
+    },
+    "image": "/cards/cups-09.jpg"
+  },
+  {
+    "id": "ten-of-cups",
+    "name": "Ten Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": 10,
+    "keywords": {
+      "upright": [
+        "joy",
+        "fulfillment",
+        "overwhelming emotion",
+        "giddiness"
+      ],
+      "reversed": [
+        "Comparing your achievements or relationships to unrealistic fantasy standards",
+        "Experiencing emotions so intense they blunt your ability to cope with reality",
+        "Feeling overwhelmed",
+        "Envying the achievements and happiness of others"
+      ]
+    },
+    "meaning": {
+      "upright": "Having more than you ever dreamed. Being deeply thankful for all you've been given. Recognizing the Hand of God in the gifts the Universe brings your way. Experiencing transcendent joy. Achieving domestic bliss.",
+      "reversed": "Comparing your achievements or relationships to unrealistic fantasy standards. Experiencing emotions so intense they blunt your ability to cope with reality. Feeling overwhelmed. Envying the achievements and happiness of others."
+    },
+    "image": "/cards/cups-10.jpg"
+  },
+  {
+    "id": "page-of-cups",
+    "name": "Page Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": "page",
+    "keywords": {
+      "upright": [
+        "enthusiasm",
+        "first impressions",
+        "romanticism",
+        "superficiality"
+      ],
+      "reversed": [
+        "Mistaking a crush for true love",
+        "Reading romantic intention into innocent action",
+        "Frantically trying to impress others",
+        "Indulging in overly-sweet sentimentality",
+        "Pretending to more romantic or spiritual experience than you possess"
+      ]
+    },
+    "meaning": {
+      "upright": "Showing your emotions freely. Throwing yourself into romance. Nursing a secret crush. Indulging in romantic fantasy. Starting a new relationship. Recalling your first love. Experiencing love for the first time. Converting to a new religion.",
+      "reversed": "Mistaking a crush for true love. Reading romantic intention into innocent action. Frantically trying to impress others. Indulging in overly-sweet sentimentality. Pretending to more romantic or spiritual experience than you possess."
+    },
+    "image": "/cards/cups-page.jpg"
+  },
+  {
+    "id": "knight-of-cups",
+    "name": "Knight Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": "knight",
+    "keywords": {
+      "upright": [
+        "fervor",
+        "zeal",
+        "moodiness",
+        "illumination"
+      ],
+      "reversed": [
+        "Becoming a fanatic",
+        "Rejecting information that suggests your intuitions are misguided",
+        "Allowing your emotions to control you",
+        "Giving in to jealousy, confrontation, and peer pressure",
+        "Hiding or ignoring intuitive insights"
+      ]
+    },
+    "meaning": {
+      "upright": "Being deeply committed to a cause. Giving in to strong emotions, from excitement to depression. Acting on intuition alone. Solving problems intuitively. Believing in and basing decisions on ideals instead of realities. Bringing intuition or passion to the table.",
+      "reversed": "Becoming a fanatic. Rejecting information that suggests your intuitions are misguided. Allowing your emotions to control you. Giving in to jealousy, confrontation, and peer pressure. Hiding or ignoring intuitive insights."
+    },
+    "image": "/cards/cups-knight.jpg"
+  },
+  {
+    "id": "queen-of-cups",
+    "name": "Queen Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": "queen",
+    "keywords": {
+      "upright": [
+        "insightfulness",
+        "spirituality",
+        "compassion",
+        "empathy",
+        "instinct"
+      ],
+      "reversed": [
+        "Becoming so caught up in matters of Spirit, you become detached from the world",
+        "Allowing empathy to disable you (instead of inspire action)",
+        "Using psychic abilities to wield covert influence",
+        "Wallowing in emotionalism, sentiment, or self-pity"
+      ]
+    },
+    "meaning": {
+      "upright": "Allowing yourself to be moved by the plight of others. Feeling strong emotions. Possessing unusual sympathy or empathy. Trusting your feelings to guide you. Calling on psychic abilities. Achieving unity with Spirit.",
+      "reversed": "Becoming so caught up in matters of Spirit, you become detached from the world. Allowing empathy to disable you (instead of inspire action). Using psychic abilities to wield covert influence. Wallowing in emotionalism, sentiment, or self-pity."
+    },
+    "image": "/cards/cups-queen.jpg"
+  },
+  {
+    "id": "king-of-cups",
+    "name": "King Of Cups",
+    "arcana": "Minor",
+    "suit": "Cups",
+    "number": "king",
+    "keywords": {
+      "upright": [
+        "wisdom",
+        "diplomacy",
+        "restraint",
+        "composure"
+      ],
+      "reversed": [
+        "Allowing yourself to become rigid and unemotional",
+        "Making unfair decisions based on a hidden agenda",
+        "Making decisions without regard for their emotional impact on others",
+        "Abusing spiritual authority",
+        "Using emotional or spiritual leverage to exercise unhealthy control over others"
+      ]
+    },
+    "meaning": {
+      "upright": "Keeping a stiff upper lip. Being brave and clear in the face of adverse circumstances. Sharing experience as a way of comforting others. Making fair and empathetic decisions. Honoring the spirit, not just the letter, of the law.",
+      "reversed": "Allowing yourself to become rigid and unemotional. Making unfair decisions based on a hidden agenda. Making decisions without regard for their emotional impact on others. Abusing spiritual authority. Using emotional or spiritual leverage to exercise unhealthy control over others."
+    },
+    "image": "/cards/cups-king.jpg"
+  },
+  {
+    "id": "ace-of-swords",
+    "name": "Ace Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "logic",
+        "objectivity",
+        "intellect",
+        "choice"
+      ],
+      "reversed": [
+        "Applying ruthless or twisted logic",
+        "Gloating over your own superior intellect",
+        "Using quick thinking to deceive or confuse others",
+        "Confusing snap judgments with quick thinking",
+        "Making decisions without thinking through consequences"
+      ]
+    },
+    "meaning": {
+      "upright": "Making objective decisions. Applying logic. Reasoning your way out of a difficult situation. Solving puzzles. Thinking things through. Emphasizing the facts. Clearing your mind. Seeking clarity.",
+      "reversed": "Applying ruthless or twisted logic. Gloating over your own superior intellect. Using quick thinking to deceive or confuse others. Confusing snap judgments with quick thinking. Making decisions without thinking through consequences."
+    },
+    "image": "/cards/swords-ace.jpg"
+  },
+  {
+    "id": "two-of-swords",
+    "name": "Two Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "denial",
+        "debate",
+        "impasse",
+        "truce"
+      ],
+      "reversed": [
+        "Rejecting evidence that conflicts with dearly-held beliefs",
+        "Arguing with others just for the sake of doing so",
+        "Nit-picking",
+        "Putting off a decision because you're afraid to face the consequences",
+        "Preventing others from getting the information they need to make good decisions"
+      ]
+    },
+    "meaning": {
+      "upright": "Refusing to make a decision without getting the facts. Exploring both sides of an argument. Arguing passionately for what you believe in. Weighing the issues. Encouraging the open exchange of ideas. Discussing political or religious issues without getting \"hot under the collar\".",
+      "reversed": "Rejecting evidence that conflicts with dearly-held beliefs. Arguing with others just for the sake of doing so. Nit-picking. Putting off a decision because you're afraid to face the consequences. Preventing others from getting the information they need to make good decisions."
+    },
+    "image": "/cards/swords-02.jpg"
+  },
+  {
+    "id": "three-of-swords",
+    "name": "Three Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "variance",
+        "difference",
+        "dissatisfaction",
+        "heartache",
+        "rejection"
+      ],
+      "reversed": [
+        "Wallowing in despair",
+        "Allowing yourself to be completely crushed by the thoughts, words, or deeds of another",
+        "Judging yourself too harshly",
+        "Holding yourself to an unrealistic standard of excellence",
+        "Wearing your heart on your sleeve while carrying a chip on your shoulder"
+      ]
+    },
+    "meaning": {
+      "upright": "Being brave enough to see things as they really are. Exercising your critical eye. Being your own best critic. Acknowledging that things don't always turn out as planned. Moving past heartbreak to embrace a painful truth.",
+      "reversed": "Wallowing in despair. Allowing yourself to be completely crushed by the thoughts, words, or deeds of another. Judging yourself too harshly. Holding yourself to an unrealistic standard of excellence. Wearing your heart on your sleeve while carrying a chip on your shoulder."
+    },
+    "image": "/cards/swords-03.jpg"
+  },
+  {
+    "id": "four-of-swords",
+    "name": "Four Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "meditation",
+        "contemplation",
+        "perspective",
+        "mindset"
+      ],
+      "reversed": [
+        "Failing to think things through",
+        "Mistaking procrastination for thoughtfulness",
+        "Adopting a point of view and refusing to reconsider your conclusions, even when presented with refuting evidence",
+        "Allowing chaos and whimsy to dominate your thoughts"
+      ]
+    },
+    "meaning": {
+      "upright": "Thinking over your plans before putting them into action. Pausing to meditate or clear your mind. Taking time to understand someone or something before criticizing it. Resting. Occupying your thoughts with a healthy distraction.",
+      "reversed": "Failing to think things through. Mistaking procrastination for thoughtfulness. Adopting a point of view and refusing to reconsider your conclusions, even when presented with refuting evidence. Allowing chaos and whimsy to dominate your thoughts."
+    },
+    "image": "/cards/swords-04.jpg"
+  },
+  {
+    "id": "five-of-swords",
+    "name": "Five Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "selfishness",
+        "hostility",
+        "irrationality",
+        "self-preservation"
+      ],
+      "reversed": [
+        "Taking advantage of others",
+        "Intimidating others",
+        "Acting in an unethical manner",
+        "Picking fights",
+        "Using words to goad others into violence and irrationality",
+        "Ignoring rules you've agreed to abide by"
+      ]
+    },
+    "meaning": {
+      "upright": "Acting in your own best interest. Choosing to stand up for yourself. Not backing down from disagreement and discord. Taking a stand. Refusing to go along with an unethical plan. Knowing when to bend the rules.",
+      "reversed": "Taking advantage of others. Intimidating others. Acting in an unethical manner. Picking fights. Using words to goad others into violence and irrationality. Ignoring rules you've agreed to abide by. Looking out for yourself while allowing harm to come to others. Gloating over victory."
+    },
+    "image": "/cards/swords-05.jpg"
+  },
+  {
+    "id": "six-of-swords",
+    "name": "Six Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 6,
+    "keywords": {
+      "upright": [
+        "adaptation",
+        "adjustments",
+        "science",
+        "travel"
+      ],
+      "reversed": [
+        "Refusing to accept that things have changed",
+        "Playing the victim",
+        "Rejecting the idea that your actions have consequences",
+        "Applying scientific criteria to matters of faith, or confusing faith with science",
+        "Believing the whole world should be like your small corner of it"
+      ]
+    },
+    "meaning": {
+      "upright": "Making the best of a bad situation. Recovering from defeat. Resetting expectations. Making allowances for unexpected circumstances. Helping others who find themselves in dire circumstances. Changing the way you see the world. Broadening your perspective through study or travel.",
+      "reversed": "Refusing to accept that things have changed. Playing the victim. Rejecting the idea that your actions have consequences. Applying scientific criteria to matters of faith, or confusing faith with science. Believing the whole world should be like your small corner of it."
+    },
+    "image": "/cards/swords-06.jpg"
+  },
+  {
+    "id": "seven-of-swords",
+    "name": "Seven Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "dishonesty",
+        "presumption",
+        "sneakiness",
+        "assumptions"
+      ],
+      "reversed": [
+        "Stealing or lying",
+        "Doing whatever you can get away with, simply because you can",
+        "Looking for a way around consequences",
+        "Justifying wicked behavior by focusing on the wickedness of others",
+        "Failing to examine your own motives and prejudices"
+      ]
+    },
+    "meaning": {
+      "upright": "Refusing to do something dishonest, even when there's no chance of ever being caught. Handling a difficult situation with finesse. Pointing out assumptions. Acting ethically in public and in private. Living a life that is beyond reproach.",
+      "reversed": "Stealing or lying. Doing whatever you can get away with, simply because you can. Looking for a way around consequences. Justifying wicked behavior by focusing on the wickedness of others. Failing to examine your own motives and prejudices."
+    },
+    "image": "/cards/swords-07.jpg"
+  },
+  {
+    "id": "eight-of-swords",
+    "name": "Eight Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "restriction",
+        "limitation",
+        "confinement",
+        "helplessness"
+      ],
+      "reversed": [
+        "Feeling trapped",
+        "Being lost in a maze of rules and regulations",
+        "Giving in to despair",
+        "Playing the victim",
+        "Allowing others to dictate what you can and cannot do",
+        "Being rendered helpless"
+      ]
+    },
+    "meaning": {
+      "upright": "Honoring limits. Respecting the rules. Deciding to go on a diet for your health's sake. Recognizing you cannot always be in control. Identifying obstacles to further progress. Refusing to think about unhealthy or unethical options. Asking for assistance.",
+      "reversed": "Feeling trapped. Being lost in a maze of rules and regulations. Giving in to despair. Playing the victim. Allowing others to dictate what you can and cannot do. Being rendered helpless. Having very few options. Failing to look for a way out."
+    },
+    "image": "/cards/swords-08.jpg"
+  },
+  {
+    "id": "nine-of-swords",
+    "name": "Nine Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 9,
+    "keywords": {
+      "upright": [
+        "remorse",
+        "worry",
+        "distraught",
+        "conclusion"
+      ],
+      "reversed": [
+        "Torturing yourself with regrets",
+        "Second-guessing your every move",
+        "Beating yourself up for your mistakes",
+        "Depression",
+        "Obsessing on errors and overlooked details",
+        "Refusing to handle stress in healthy ways"
+      ]
+    },
+    "meaning": {
+      "upright": "Refusing to worry about what you cannot control. Rejecting anxiety. Judging your own performance with kindness and gentleness. Using meditation to quiet a troubled mind. Confronting nightmares and fears. Drawing a conclusion and putting an issue out of your mind.",
+      "reversed": "Torturing yourself with regrets. Second-guessing your every move. Beating yourself up for your mistakes. Depression. Obsessing on errors and overlooked details. Refusing to handle stress in healthy ways. Ruining your ability to appreciate the present by dwelling on the past. Debating irreversible decisions."
+    },
+    "image": "/cards/swords-09.jpg"
+  },
+  {
+    "id": "ten-of-swords",
+    "name": "Ten Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": 10,
+    "keywords": {
+      "upright": [
+        "exhaustion",
+        "ruin",
+        "disaster",
+        "stamina",
+        "obsession"
+      ],
+      "reversed": [
+        "Accepting defeat prematurely",
+        "Driving yourself to total exhaustion, especially mentally",
+        "Experiencing a mental breakdown",
+        "Obsessing on a problem to the breaking point",
+        "Giving up",
+        "Refusing to move from thought to action"
+      ]
+    },
+    "meaning": {
+      "upright": "Seeing the signs that you've reached your limits. Paying attention to what your body is trying to tell you. Giving in to the need for rest and renewal. Acknowledging that you've hit bottom. Committing to a turnaround. Knowing the worst is over.",
+      "reversed": "Accepting defeat prematurely. Driving yourself to total exhaustion, especially mentally. Experiencing a mental breakdown. Obsessing on a problem to the breaking point. Giving up. Refusing to move from thought to action. Deeply unhealthy thoughts."
+    },
+    "image": "/cards/swords-10.jpg"
+  },
+  {
+    "id": "page-of-swords",
+    "name": "Page Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": "page",
+    "keywords": {
+      "upright": [
+        "student",
+        "apprentice",
+        "scholarship",
+        "information"
+      ],
+      "reversed": [
+        "Pretending to knowledge or sophistication you do not possess",
+        "Cheating on an exam",
+        "Feigning interest as a way of gaining favor",
+        "Considering only the evidence that supports conclusions you've already drawn",
+        "Rejecting the wise counsel of experienced teachers"
+      ]
+    },
+    "meaning": {
+      "upright": "Pursuing a course of study. Asking good questions. Investing time in study and practice. Doing research. Making a habit of learning new things. Starting an investigation. Outlining what you need to know. Finding a mentor or teacher.",
+      "reversed": "Pretending to knowledge or sophistication you do not possess. Cheating on an exam. Feigning interest as a way of gaining favor. Considering only the evidence that supports conclusions you've already drawn. Rejecting the wise counsel of experienced teachers."
+    },
+    "image": "/cards/swords-page.jpg"
+  },
+  {
+    "id": "knight-of-swords",
+    "name": "Knight Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": "knight",
+    "keywords": {
+      "upright": [
+        "bluntness",
+        "intelligence",
+        "incisiveness",
+        "investigation"
+      ],
+      "reversed": [
+        "Stating your opinions as fact",
+        "Picking fights",
+        "Starting arguments",
+        "Using clever insults to undermine the confidence of others",
+        "Tossing reason out the window",
+        "Speaking without taking the feelings of others into account"
+      ]
+    },
+    "meaning": {
+      "upright": "Speaking your mind. Making your opinions known. Offering constructive criticism. Sharing your knowledge. Making insightful observations. Pinpointing the problem. Clarifying what others have said. Giving clear direction to others. Uncovering the truth.",
+      "reversed": "Stating your opinions as fact. Picking fights. Starting arguments. Using clever insults to undermine the confidence of others. Tossing reason out the window. Speaking without taking the feelings of others into account. Going on a witch hunt. Distorting evidence."
+    },
+    "image": "/cards/swords-knight.jpg"
+  },
+  {
+    "id": "queen-of-swords",
+    "name": "Queen Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": "queen",
+    "keywords": {
+      "upright": [
+        "grace",
+        "skill",
+        "wit",
+        "charm",
+        "aptitude"
+      ],
+      "reversed": [
+        "Knowing exactly what to say to destroy another person",
+        "Withholding critical information",
+        "Using a barbed tongue to upset others",
+        "Employing sarcasm",
+        "Mimicking others unkindly",
+        "Making light of the less fortunate"
+      ]
+    },
+    "meaning": {
+      "upright": "Exercising tact or using diplomacy. Defusing a tense situation. Knowing what to say and how to say it. Making others feel comfortable and confident. Bringing out the best in everyone. Having a way with words. Telling jokes. Possessing a knack for music, math, art, or science.",
+      "reversed": "Knowing exactly what to say to destroy another person. Withholding critical information. Using a barbed tongue to upset others. Employing sarcasm. Mimicking others unkindly. Making light of the less fortunate. Being disrespectful. Failing to use the talent you've been given."
+    },
+    "image": "/cards/swords-queen.jpg"
+  },
+  {
+    "id": "king-of-swords",
+    "name": "King Of Swords",
+    "arcana": "Minor",
+    "suit": "Swords",
+    "number": "king",
+    "keywords": {
+      "upright": [
+        "genius",
+        "expertise",
+        "decision",
+        "verdict"
+      ],
+      "reversed": [
+        "Insisting on having the last word",
+        "Flaunting your intellectual capability",
+        "Talking \"over the heads\" of others",
+        "Waffling on an important decision",
+        "Constantly changing your mind",
+        "Refusing to make choices that are in your own best interest"
+      ]
+    },
+    "meaning": {
+      "upright": "Expressing yourself with firmness and authority. Rendering a final decision. Consulting an expert. Calling in advisors and consultants. Coming to a final conclusion. Reaching a beneficial agreement based on sound information.",
+      "reversed": "Insisting on having the last word. Flaunting your intellectual capability. Talking \"over the heads\" of others. Waffling on an important decision. Constantly changing your mind. Refusing to make choices that are in your own best interest. Wishing in vain you could take back what's been said."
+    },
+    "image": "/cards/swords-king.jpg"
+  },
+  {
+    "id": "ace-of-pentacles",
+    "name": "Ace Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 1,
+    "keywords": {
+      "upright": [
+        "health",
+        "wealth",
+        "practicality",
+        "receiving"
+      ],
+      "reversed": [
+        "Indulging in relentless consumerism",
+        "Wanting more, no matter how much you have",
+        "Obsessing on your account balance",
+        "Suffering from hypochondria",
+        "Consuming blessings without expressing gratitude",
+        "Taking what you want without concern for the needs of others"
+      ]
+    },
+    "meaning": {
+      "upright": "Outlining a plan for achieving prosperity. Becoming aware of opportunities to improve income or health. Realizing you have everything you need. Appreciating everything the Universe has given you. Receiving the perfect gift at the perfect time.",
+      "reversed": "Indulging in relentless consumerism. Wanting more, no matter how much you have. Obsessing on your account balance. Suffering from hypochondria. Consuming blessings without expressing gratitude. Taking what you want without concern for the needs of others."
+    },
+    "image": "/cards/pentacles-ace.jpg"
+  },
+  {
+    "id": "two-of-pentacles",
+    "name": "Two Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 2,
+    "keywords": {
+      "upright": [
+        "evaluation",
+        "decision",
+        "budgeting",
+        "diagnosis"
+      ],
+      "reversed": [
+        "Engaging in endless price comparison",
+        "Putting off a buying decision for fear of finding a slightly better value later on",
+        "Buying something without regard for value",
+        "Breaking your budget with unnecessary expenses",
+        "Engaging in behavior with no regard for how your body or bankbook will be impacted"
+      ]
+    },
+    "meaning": {
+      "upright": "Weighing options. Comparing prices. Determining the value of one option over another. Juggling resources to make ends meet. Making difficult choices based on what's best for your body or your bankbook. Looking at the bottom line. Asking for a second opinion on health issues.",
+      "reversed": "Engaging in endless price comparison. Putting off a buying decision for fear of finding a slightly better value later on. Buying something without regard for value. Breaking your budget with unnecessary expenses. Engaging in behavior with no regard for how your body or bankbook will be impacted."
+    },
+    "image": "/cards/pentacles-02.jpg"
+  },
+  {
+    "id": "three-of-pentacles",
+    "name": "Three Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 3,
+    "keywords": {
+      "upright": [
+        "expression",
+        "production",
+        "work",
+        "contribution"
+      ],
+      "reversed": [
+        "Pandering to the tastes of others",
+        "Failing to deliver what you've promised",
+        "Not delivering your best work unless closely supervised",
+        "Ignoring or breaking agreements with those who have invested in you",
+        "Refusing to do your part",
+        "Failing to abide by a clearly-outlined agreement with yourself or others"
+      ]
+    },
+    "meaning": {
+      "upright": "Finishing a project. Setting and meeting standards. Performing according to specifications. Making something others value. Creating something new. Doing your part in a group project. Delivering exactly what others have asked for.",
+      "reversed": "Pandering to the tastes of others. Failing to deliver what you've promised. Not delivering your best work unless closely supervised. Ignoring or breaking agreements with those who have invested in you. Refusing to do your part. Failing to abide by a clearly-outlined agreement with yourself or others."
+    },
+    "image": "/cards/pentacles-03.jpg"
+  },
+  {
+    "id": "four-of-pentacles",
+    "name": "Four Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 4,
+    "keywords": {
+      "upright": [
+        "protection",
+        "conservation",
+        "preservation",
+        "safety"
+      ],
+      "reversed": [
+        "Being stingy",
+        "Refusing to spend money that needs to be spent",
+        "Withholding sex from your partner",
+        "Taking care of your own needs exclusively, without regard for the needs of others",
+        "Spending a dollar to save a penny",
+        "Failing to be a good manager of the blessings you've been given"
+      ]
+    },
+    "meaning": {
+      "upright": "Saving for a rainy day. Fasting as part of a spiritual practice. Dieting in an effort to improve your body. Abstaining from sex as a way of honoring a spiritual tradition or personal promise. Being financially conservative. Establishing a trust fund. Opening a savings account.",
+      "reversed": "Being stingy. Refusing to spend money that needs to be spent. Withholding sex from your partner. Taking care of your own needs exclusively, without regard for the needs of others. Spending a dollar to save a penny. Failing to be a good manager of the blessings you've been given."
+    },
+    "image": "/cards/pentacles-04.jpg"
+  },
+  {
+    "id": "five-of-pentacles",
+    "name": "Five Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 5,
+    "keywords": {
+      "upright": [
+        "poverty",
+        "destitution",
+        "need",
+        "crisis"
+      ],
+      "reversed": [
+        "Exaggerating your financial or physical needs",
+        "Adopting a poverty mentality",
+        "Refusing to support yourself",
+        "Refusing offers of support",
+        "Playing the martyr",
+        "Turning down opportunities to improve your health or finances"
+      ]
+    },
+    "meaning": {
+      "upright": "Recognizing your needs and taking action to fulfill them. Doing as much as you can do with what little you have. Admitting you need help. Embracing the aid that comes your way. Focusing on what you have versus what you don't. Looking for the light at the end of the tunnel.",
+      "reversed": "Exaggerating your financial or physical needs. Adopting a poverty mentality. Refusing to support yourself. Refusing offers of support. Playing the martyr. Turning down opportunities to improve your health or finances. Wallowing in misery."
+    },
+    "image": "/cards/pentacles-05.jpg"
+  },
+  {
+    "id": "six-of-pentacles",
+    "name": "Six Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 6,
+    "keywords": {
+      "upright": [
+        "charity",
+        "fairness",
+        "cooperation",
+        "sharing"
+      ],
+      "reversed": [
+        "Making a loan as a means of gaining control over someone",
+        "Using charitable acts to draw attention to yourself",
+        "Dividing work or resources unfairly",
+        "Failing to do your part in a group effort",
+        "Ignoring obligations and commitments"
+      ]
+    },
+    "meaning": {
+      "upright": "Giving time, money, or effort to a charity. Taking part in a group effort. Lending your resources to others without expecting anything in return. Making sure everyone is treated equally. Working together toward a common goal. Redistributing wealth, time, or attention. Tithing. Sharing credit for your success.",
+      "reversed": "Making a loan as a means of gaining control over someone. Using charitable acts to draw attention to yourself. Dividing work or resources unfairly. Failing to do your part in a group effort. Ignoring obligations and commitments."
+    },
+    "image": "/cards/pentacles-06.jpg"
+  },
+  {
+    "id": "seven-of-pentacles",
+    "name": "Seven Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 7,
+    "keywords": {
+      "upright": [
+        "assessment",
+        "evaluation",
+        "re-evaluation",
+        "reflection"
+      ],
+      "reversed": [
+        "Becoming distracted by melancholy thoughts",
+        "Longing for \"the good old days\"",
+        "Beating yourself up over lost opportunities",
+        "Judging your own work harshly",
+        "Holding others to inappropriate standards",
+        "Refusing to take part in a project, then whining about the quality of the outcome"
+      ]
+    },
+    "meaning": {
+      "upright": "Measuring progress toward your goal. Looking at results with an eye toward improving performance. Asking, \"How happy am I?\". Coming up with ideas for improving your health or prosperity. Deciding it's time for a change. Expressing an honest opinion.",
+      "reversed": "Becoming distracted by melancholy thoughts. Longing for \"the good old days\". Beating yourself up over lost opportunities. Judging your own work harshly. Holding others to inappropriate standards. Refusing to take part in a project, then whining about the quality of the outcome."
+    },
+    "image": "/cards/pentacles-07.jpg"
+  },
+  {
+    "id": "eight-of-pentacles",
+    "name": "Eight Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 8,
+    "keywords": {
+      "upright": [
+        "effort",
+        "work diligence",
+        "skill"
+      ],
+      "reversed": [
+        "Working yourself to death",
+        "Doing a half-hearted or sloppy job",
+        "Continuing in a job you hate",
+        "Buying thoughtless gifts",
+        "Producing work with shoddy craftsmanship",
+        "Rushing through your work"
+      ]
+    },
+    "meaning": {
+      "upright": "Doing your best. Bringing enthusiasm and zeal to your work. Making an effort to be the best you can be. Finding the work that is right for you. Taking care of the small details. Becoming a finely skilled craftsperson. Building something with your hands. Making a handmade gift.",
+      "reversed": "Working yourself to death. Doing a half-hearted or sloppy job. Continuing in a job you hate. Buying thoughtless gifts. Producing work with shoddy craftsmanship. Rushing through your work. Rejecting opportunities to learn more about your craft."
+    },
+    "image": "/cards/pentacles-08.jpg"
+  },
+  {
+    "id": "nine-of-pentacles",
+    "name": "Nine Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 9,
+    "keywords": {
+      "upright": [
+        "training",
+        "discipline",
+        "confidence",
+        "enough"
+      ],
+      "reversed": [
+        "Being assigned to a task without being trained to perform it",
+        "Pursuing a position for which you are not qualified",
+        "Disregarding requirements",
+        "Refusing to dedicate adequate time or attention when learning about something or someone new",
+        "Always craving more"
+      ]
+    },
+    "meaning": {
+      "upright": "Investing time in learning or teaching a difficult task. Restraining yourself from physical or financial extremes. Making sacrifices as a way of achieving larger goals. Breaking a complex task down into simple steps. Wanting what you have. Knowing the difference between needs and wants.",
+      "reversed": "Being assigned to a task without being trained to perform it. Pursuing a position for which you are not qualified. Disregarding requirements. Refusing to dedicate adequate time or attention when learning about something or someone new. Always craving more."
+    },
+    "image": "/cards/pentacles-09.jpg"
+  },
+  {
+    "id": "ten-of-pentacles",
+    "name": "Ten Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": 10,
+    "keywords": {
+      "upright": [
+        "wealth",
+        "abundance",
+        "acquisition",
+        "greed"
+      ],
+      "reversed": [
+        "Spending all of your money on extravagant gifts and possessions",
+        "Trying too hard to impress others with your wealth or physique",
+        "Giving an inappropriately expensive gift as a means of currying favor",
+        "Obsessing on matters of weight, health, or finance",
+        "Always asking, \"What's in it for me?\""
+      ]
+    },
+    "meaning": {
+      "upright": "Celebrating your physical and financial blessings. Realizing how lucky or how blessed you are. Being satisfied with your physical and financial achievements. Taking best advantage of \"times of plenty\". Enjoying a feast. Showering friends or family with gifts.",
+      "reversed": "Spending all of your money on extravagant gifts and possessions. Trying too hard to impress others with your wealth or physique. Giving an inappropriately expensive gift as a means of currying favor. Obsessing on matters of weight, health, or finance. Always asking, \"What's in it for me?\"."
+    },
+    "image": "/cards/pentacles-10.jpg"
+  },
+  {
+    "id": "page-of-pentacles",
+    "name": "Page Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": "page",
+    "keywords": {
+      "upright": [
+        "practicality",
+        "prosperity",
+        "learning",
+        "growth",
+        "adolescence"
+      ],
+      "reversed": [
+        "Trying to appear healthier or wealthier than you really are",
+        "Spending money carelessly",
+        "Living strictly for today, with no thought of tomorrow",
+        "Possessing immature attitudes toward sex and sexuality",
+        "Using wealth or beauty as an excuse for not having to learn and grow"
+      ]
+    },
+    "meaning": {
+      "upright": "Learning the value of a dollar. Starting a savings plan. Taking the first steps toward getting out of debt. Learning new physical tasks. Discovering your sexuality. Launching a diet, a weight-lifting program, or a health-related effort. Learning by doing.",
+      "reversed": "Trying to appear healthier or wealthier than you really are. Spending money carelessly. Living strictly for today, with no thought of tomorrow. Possessing immature attitudes toward sex and sexuality. Using wealth or beauty as an excuse for not having to learn and grow."
+    },
+    "image": "/cards/pentacles-page.jpg"
+  },
+  {
+    "id": "knight-of-pentacles",
+    "name": "Knight Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": "knight",
+    "keywords": {
+      "upright": [
+        "caution",
+        "focus",
+        "realism",
+        "invention"
+      ],
+      "reversed": [
+        "Throwing caution to the four winds",
+        "Spending without regard for consequence",
+        "Spending on luxury when necessities are lacking",
+        "Escaping stress by spending money",
+        "Obsessing on tiny physical or financial details",
+        "Perpetually chasing after some new bauble"
+      ]
+    },
+    "meaning": {
+      "upright": "Spending money wisely. Saving for a rainy day. Paying close attention to physical or financial details. Knowing where every dollar goes. Having safe sex. Preferring facts to \"good feelings\". Finding creative ways to \"make do\" with resources on hand. Completing a new invention.",
+      "reversed": "Throwing caution to the four winds. Spending without regard for consequence. Spending on luxury when necessities are lacking. Escaping stress by spending money. Obsessing on tiny physical or financial details. Perpetually chasing after some new bauble. Copying another's work and claiming it as your own."
+    },
+    "image": "/cards/pentacles-knight.jpg"
+  },
+  {
+    "id": "queen-of-pentacles",
+    "name": "Queen Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": "queen",
+    "keywords": {
+      "upright": [
+        "luxury",
+        "comfort",
+        "resourcefulness",
+        "generosity",
+        "prosperity"
+      ],
+      "reversed": [
+        "Indulging in gluttony or greediness",
+        "Becoming insatiable",
+        "Blunting the impact of treats by indulging in them too often",
+        "Providing physical comfort without providing for emotional needs",
+        "Allowing a feeling of entitlement to distort your gratitude for what you're given"
+      ]
+    },
+    "meaning": {
+      "upright": "Appreciating fine food, fine wine, beautiful art, beautiful bodies, or any of the better things in life. Reveling in healthy sexuality. Treating yourself. Splurging on the occasional \"nice to have\" item. Rewarding someone with compensation above and beyond expectations. Having it all.",
+      "reversed": "Indulging in gluttony or greediness. Becoming insatiable. Blunting the impact of treats by indulging in them too often. Providing physical comfort without providing for emotional needs. Allowing a feeling of entitlement to distort your gratitude for what you're given."
+    },
+    "image": "/cards/pentacles-queen.jpg"
+  },
+  {
+    "id": "king-of-pentacles",
+    "name": "King Of Pentacles",
+    "arcana": "Minor",
+    "suit": "Pentacles",
+    "number": "king",
+    "keywords": {
+      "upright": [
+        "stability",
+        "dependability",
+        "confidence",
+        "intervention"
+      ],
+      "reversed": [
+        "Becoming so conservative you resist all change on principle alone",
+        "Ignoring innovations in the name of preserving tradition",
+        "Being smug or cocky",
+        "Becoming ruthlessly dedicated to profit or pleasure",
+        "Being sexually selfish",
+        "Bossing others around, especially when you're not empowered to do so"
+      ]
+    },
+    "meaning": {
+      "upright": "Becoming debt-free. Having more than enough to get by. Making contributions to a savings plan. Taking a new job with an eye toward advancing your career. Buying life or health insurance. Being confident in the bedroom. Taking on the role of enforcer when called upon to do so.",
+      "reversed": "Becoming so conservative you resist all change on principle alone. Ignoring innovations in the name of preserving tradition. Being smug or cocky. Becoming ruthlessly dedicated to profit or pleasure. Being sexually selfish. Bossing others around, especially when you're not empowered to do so."
+    },
+    "image": "/cards/pentacles-king.jpg"
+  }
+]
