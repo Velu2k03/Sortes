@@ -75,7 +75,7 @@ async function processCards() {
     if (finalName === "The Pope/Hierophant") finalName = "The Hierophant";
     if (finalName === "The Wheel") finalName = "Wheel of Fortune";
     if (card.suit === "coins") finalName = finalName.replace(/coins/i, "Pentacles");
-    finalName = finalName.replace(/\b\w/g, c => c.toUpperCase());
+    finalName = finalName.replace(/\b\w/g, (c: string) => c.toUpperCase());
     if (isMajor) {
       const numStr = card.rank.toString().padStart(2, '0');
       const nameSafe = finalName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
