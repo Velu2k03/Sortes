@@ -17,7 +17,7 @@ const serverEnvSchema = z.object({
     .string()
     .min(1)
     .optional()
-    .transform((s) => s ? s.split(",").map((m) => m.trim()) : ["mistralai/mistral-7b-instruct"]),
+    .transform((s) => s ? s.split(",").map((m) => m.trim()) : ["google/gemini-2.5-flash:free"]),
 
   // Supabase
   NEXT_PUBLIC_SUPABASE_URL: z.string().url().optional(),

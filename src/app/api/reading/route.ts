@@ -43,7 +43,7 @@ export async function POST(req: Request) {
     }
 
     const response = await openai.chat.completions.create({
-      model: env.OPENROUTER_MODELS?.[0] || "mistralai/mistral-7b-instruct",
+      model: env.OPENROUTER_MODELS?.[0] || "google/gemini-2.5-flash:free",
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: prompt },
