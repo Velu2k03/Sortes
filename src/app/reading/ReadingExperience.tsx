@@ -118,7 +118,9 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
                 onClick={() => startReading("single")}
                 className="p-8 rounded-2xl border border-[#d4af37]/30 bg-[#15152a]/50 hover:bg-[#d4af37]/10 transition-all text-center flex flex-col items-center group"
               >
-                <div className="w-16 h-24 bg-[#0a0a1a] border border-[#d4af37]/50 rounded mb-6 group-hover:scale-105 transition-transform" />
+                <div className="w-16 h-24 rounded mb-6 group-hover:scale-105 transition-transform overflow-hidden border border-[#d4af37]/50 relative shadow-md">
+                  <img src="/card_back.jpg" alt="Single Card Spread" className="object-cover w-full h-full" />
+                </div>
                 <h3 className="text-xl text-[#e8e4d9] font-medium mb-2">Single Card</h3>
                 <p className="text-[#8a8a9d] text-sm">A quick answer, daily draw, or singular focus.</p>
               </button>
@@ -128,9 +130,15 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
                 className="p-8 rounded-2xl border border-[#d4af37]/30 bg-[#15152a]/50 hover:bg-[#d4af37]/10 transition-all text-center flex flex-col items-center group"
               >
                 <div className="flex gap-2 mb-6 group-hover:scale-105 transition-transform">
-                  <div className="w-12 h-16 bg-[#0a0a1a] border border-[#d4af37]/50 rounded" />
-                  <div className="w-12 h-16 bg-[#0a0a1a] border border-[#d4af37]/50 rounded" />
-                  <div className="w-12 h-16 bg-[#0a0a1a] border border-[#d4af37]/50 rounded" />
+                  <div className="w-12 h-16 rounded overflow-hidden border border-[#d4af37]/50 relative shadow-md">
+                    <img src="/card_back.jpg" alt="Card 1" className="object-cover w-full h-full" />
+                  </div>
+                  <div className="w-12 h-16 rounded overflow-hidden border border-[#d4af37]/50 relative shadow-md">
+                    <img src="/card_back.jpg" alt="Card 2" className="object-cover w-full h-full" />
+                  </div>
+                  <div className="w-12 h-16 rounded overflow-hidden border border-[#d4af37]/50 relative shadow-md">
+                    <img src="/card_back.jpg" alt="Card 3" className="object-cover w-full h-full" />
+                  </div>
                 </div>
                 <h3 className="text-xl text-[#e8e4d9] font-medium mb-2">Past, Present, Future</h3>
                 <p className="text-[#8a8a9d] text-sm">A deeper narrative addressing the flow of time.</p>
