@@ -47,7 +47,7 @@ export async function POST(req: Request) {
     }
 
     const response = await openai.chat.completions.create({
-      model: env.OPENROUTER_MODELS?.[0] || "google/gemini-2.5-flash:free",
+      model: env.OPENROUTER_MODELS?.[0] || "meta-llama/llama-3-8b-instruct:free",
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: prompt },
