@@ -75,11 +75,13 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
           localStorage.setItem("reading_streak", newStreak.toString());
           localStorage.setItem("last_reading_date", today);
         }
+      } else if (data.error) {
+        setInterpretation(`The oracle encountered an issue: ${data.error}`);
       } else {
-        setInterpretation("The cards are silent today. (Error connecting to oracle)");
+        setInterpretation("The cards are silent today. (Unknown error)");
       }
-    } catch (e) {
-      setInterpretation("The cards are silent today. (Error connecting to oracle)");
+    } catch (e: any) {
+      setInterpretation(`The oracle encountered an issue: ${e.message}`);
     }
     setIsInterpreting(false);
   };

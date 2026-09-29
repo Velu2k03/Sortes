@@ -58,7 +58,7 @@ export async function POST(req: Request) {
   } catch (error: any) {
     console.error("Reading generation error:", error);
     return NextResponse.json(
-      { error: "Failed to generate reading." },
+      { error: error.message || "Failed to generate reading from OpenRouter." },
       { status: 500 }
     );
   }

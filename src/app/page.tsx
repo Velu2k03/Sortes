@@ -54,9 +54,49 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      {/* Sample Reading Teaser */}
+      <div className="relative z-10 w-full max-w-4xl mt-24 px-4 mb-24">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl font-[family-name:var(--font-cormorant)] text-[#d4af37] mb-4">
+            Glimpse the Oracle
+          </h2>
+          <p className="text-[#8a8a9d]">
+            A recent reading drawn by a seeker.
+          </p>
+        </div>
+        
+        <div className="relative p-8 rounded-2xl bg-[#15152a]/60 border border-[#d4af37]/20 shadow-2xl backdrop-blur-md overflow-hidden">
+          {/* Shimmer effect for teaser */}
+          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#d4af37]/50 to-transparent opacity-50" />
+          
+          <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
+            <div className="flex-shrink-0 w-32 aspect-[7/12] relative rounded-xl overflow-hidden border border-[#d4af37]/40 shadow-lg shadow-[#d4af37]/10">
+              <Image src="/images/cards/major-17-the-star.jpg" alt="The Star" fill className="object-cover" />
+            </div>
+            
+            <div className="flex-grow space-y-4 text-center md:text-left">
+              <div className="inline-block px-3 py-1 rounded-full bg-[#d4af37]/10 border border-[#d4af37]/30 text-[#d4af37] text-xs font-medium tracking-wider uppercase mb-2">
+                The Star • Upright
+              </div>
+              <h3 className="text-xl text-[#e8e4d9] font-medium italic">"Is there hope for my creative project?"</h3>
+              <p className="text-[#8a8a9d] leading-relaxed font-light text-sm md:text-base">
+                <strong className="text-[#d4af37] font-normal">The Star</strong> appears as a profound omen of renewal and inspiration. After a period of creative drought or uncertainty, the universe is pouring fresh, cosmic energy into your endeavors. You are being called to trust your vision implicitly...
+              </p>
+              <div className="pt-4">
+                <Link 
+                  href="/reading"
+                  className="text-[#d4af37] text-sm hover:text-[#e8c353] transition-colors border-b border-[#d4af37]/30 pb-1"
+                >
+                  Unlock your own personalized reading &rarr;
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
       {/* Footer / Decorative bottom */}
-      <div className="absolute bottom-8 z-10 text-[#8a8a9d] text-sm">
+      <div className="relative z-10 text-[#8a8a9d] text-sm mb-8">
         By Resonant Atlas
       </div>
     </main>
