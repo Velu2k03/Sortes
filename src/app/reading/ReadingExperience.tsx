@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card as CardType } from "@/lib/cards/schema";
 import { Card } from "@/components/Card";
 import { SpreadLayout, SpreadType } from "@/components/SpreadLayout";
