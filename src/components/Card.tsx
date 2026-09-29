@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card as CardType } from "@/lib/cards/schema";
 
 interface CardProps {
@@ -15,10 +15,25 @@ interface CardProps {
 
 export function Card({ card, isFlipped = false, onClick, className = "", delay = 0 }: CardProps) {
   const [isHovered, setIsHovered] = useState(false);
+  const [showBurst, setShowBurst] = useState(false);
+  const [prevFlipped, setPrevFlipped] = useState(isFlipped);
+
+  useEffect(() => {
+    if (isFlipped && !prevFlipped) {
+      // Delay burst to match the point in the 3D flip where it's halfway
+      const burstDelay = (delay * 1000) + 300; 
+      const timer = setTimeout(() => setShowBurst(true), burstDelay);
+      const timer2 = setTimeout(() => setShowBurst(false), burstDelay + 1000);
+      setPrevFlipped(true);
+      return () => { clearTimeout(timer); clearTimeout(timer2); };
+    }
+  }, [isFlipped, prevFlipped, delay]);
 
   return (
-    <motion.div
-      className={`relative w-full aspect-[7/12] cursor-pointer preserve-3d ${className}`}
+    <div className={`relative w-full aspect-[7/12] preserve-3d ${className}`}>
+      {showBurst && <div className="animate-burst" />}
+      <motion.div
+        className={`relative w-full h-full cursor-pointer preserve-3d`}
       onClick={onClick}
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
@@ -73,5 +88,6 @@ export function Card({ card, isFlipped = false, onClick, className = "", delay =
         )}
       </div>
     </motion.div>
+    </div>
   );
 }

@@ -20,6 +20,32 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
   
   const [isInterpreting, setIsInterpreting] = useState(false);
   const [interpretation, setInterpretation] = useState<string | null>(null);
+  const [streak, setStreak] = useState<number>(0);
+
+  useEffect(() => {
+    // Check local storage for streak
+    const lastReadStr = localStorage.getItem("last_reading_date");
+    const streakCount = parseInt(localStorage.getItem("reading_streak") || "0");
+    const today = new Date().toDateString();
+    
+    if (lastReadStr) {
+      const lastRead = new Date(lastReadStr);
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      
+      if (lastRead.toDateString() === yesterday.toDateString()) {
+        // Continue streak
+        setStreak(streakCount);
+      } else if (lastRead.toDateString() !== today) {
+        // Broken streak
+        setStreak(0);
+        localStorage.setItem("reading_streak", "0");
+      } else {
+        // Already read today
+        setStreak(streakCount);
+      }
+    }
+  }, []);
 
   const handleInterpret = async () => {
     setIsInterpreting(true);
@@ -39,6 +65,16 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
       const data = await res.json();
       if (data.text) {
         setInterpretation(data.text);
+        
+        // Update streak
+        const today = new Date().toDateString();
+        const lastReadStr = localStorage.getItem("last_reading_date");
+        if (lastReadStr !== today) {
+          const newStreak = streak + 1;
+          setStreak(newStreak);
+          localStorage.setItem("reading_streak", newStreak.toString());
+          localStorage.setItem("last_reading_date", today);
+        }
       } else {
         setInterpretation("The cards are silent today. (Error connecting to oracle)");
       }
@@ -91,8 +127,13 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
   };
 
   return (
-    <div className="w-full max-w-5xl flex flex-col items-center">
-      
+    <div className="w-full max-w-5xl flex flex-col items-center relative">
+      {streak > 1 && (
+        <div className="absolute top-0 right-0 bg-[#15152a] border border-[#d4af37]/30 px-4 py-2 rounded-full shadow-lg shadow-[#d4af37]/10 flex items-center gap-2 z-50">
+          <span className="text-xl">🔥</span>
+          <span className="text-[#e8e4d9] font-medium">{streak}-Day Streak!</span>
+        </div>
+      )}
       <AnimatePresence mode="wait">
         
         {/* STEP 1: Select Spread */}
@@ -280,21 +321,29 @@ export function ReadingExperience({ cards }: ReadingExperienceProps) {
                 className="w-full max-w-2xl mt-12 p-8 rounded-2xl bg-[#15152a]/80 border border-[#d4af37]/30 shadow-2xl"
               >
                 <div className="prose prose-invert prose-gold max-w-none">
-                  {interpretation.split('\n').map((paragraph, i) => (
-                    <p key={i} className="text-[#e8e4d9] leading-relaxed mb-4 font-light">
+                  {interpretation.split('\n').map((paragraph, i) => {
+                    const delay = i * 0.5;
+                    return (
+                    <motion.p 
+                      key={i} 
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 1, delay }}
+                      className="text-[#e8e4d9] leading-relaxed mb-4 font-light relative"
+                    >
                       {/* Bold card names or markdown-like strong tags visually */}
                       {paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').split('<strong>').map((part, j) => {
-                        if (j === 0) return part;
+                        if (j === 0) return <span key={j} className="animate-[fadeIn_0.5s_ease-out_forwards]" style={{ animationDelay: `${delay + (j * 0.1)}s`, opacity: 0 }}>{part}</span>;
                         const [boldText, rest] = part.split('</strong>');
                         return (
                           <span key={j}>
-                            <strong className="text-[#d4af37] font-semibold">{boldText}</strong>
-                            {rest}
+                            <strong className="text-[#d4af37] font-semibold animate-[fadeIn_0.5s_ease-out_forwards]" style={{ animationDelay: `${delay + (j * 0.1)}s`, opacity: 0 }}>{boldText}</strong>
+                            <span className="animate-[fadeIn_0.5s_ease-out_forwards]" style={{ animationDelay: `${delay + (j * 0.1) + 0.1}s`, opacity: 0 }}>{rest}</span>
                           </span>
                         );
                       })}
-                    </p>
-                  ))}
+                    </motion.p>
+                  )})}
                 </div>
               </motion.div>
             )}

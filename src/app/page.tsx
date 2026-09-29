@@ -41,7 +41,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto">
           <Link 
             href="/reading"
-            className="px-8 py-4 bg-[#d4af37] hover:bg-[#e8c353] text-[#0a0a1a] font-semibold rounded-full transition-all hover:scale-105 active:scale-95 shadow-lg shadow-[#d4af37]/20 text-lg"
+            className="px-8 py-4 bg-[#d4af37] hover:bg-[#e8c353] text-[#0a0a1a] font-semibold rounded-full transition-all hover:scale-105 active:scale-95 shadow-lg shadow-[#d4af37]/20 text-lg animate-shimmer"
           >
             Cast the Lots
           </Link>
